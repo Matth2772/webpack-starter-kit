@@ -1,2 +1,6 @@
-# ic-booking-tool-front
+# Starter Kit
 
+* SCSS
+* ES6
+* ESLint: Airbnb
+* Dev Server
