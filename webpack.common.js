@@ -4,7 +4,6 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: {
     'js/main.min.js': './src/assets/js/main.js',
     'css/main.min.css': './src/assets/scss/main.scss',
@@ -30,7 +29,6 @@ module.exports = {
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader', // creates style nodes from JS strings
           use: [
-            // TODO: setup production https://github.com/webpack-contrib/sass-loader
             'css-loader', // translates CSS into CommonJS
             'sass-loader', // compiles Sass to CSS
           ],
