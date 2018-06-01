@@ -4,3 +4,6 @@
 * ES6
 * ESLint: Airbnb
 * Dev Server
+
+
+- TODO: Stylelint
