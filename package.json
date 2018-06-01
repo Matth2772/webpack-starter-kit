@@ -9,13 +9,6 @@
     "dev": "webpack-dev-server --hot --inline",
     "heroku-postbuild": "webpack -p"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/valtechcanada/ic-booking-tool-front.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/valtechcanada/ic-booking-tool-front#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
